@@ -1,12 +1,12 @@
-import copy
-import torch
-
 # Adapted from PyTorch transfer learning Tutorial
 ## Author: Sasank Chilamkurthy
 ## Date: 22/04/2021
 ## Name: transfer_learning_tutorial.py
 ## Type: source code
 ## Web address: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+
+import copy
+import torch
 
 
 class Model:
@@ -75,13 +75,6 @@ class Model:
 
         # return the best model
         return best_model
-
-
-    # Adapted from PyTorch TRAINING A CLASSIFIER
-    ## Date: 22/04/2021
-    ## Name: cifar10_tutorial.py
-    ## Type: source code
-    ## Web address: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#training-a-classifier
 
     def test(self, model):
         correct_predictions = {classname: 0 for classname in self.classes}

@@ -1,10 +1,21 @@
-**machine-learning-algorithm:**
-<br /> - run sort_iamges.py and then run model/main.py
-<br /> - to enable muticlass change sort_pad() to sort_pad(muticlass=True)
+#Machine learning algorithm:
+**How to run:**  
+Download PAF-50 dataset and place images inside `dataset/PAD-UFES-20/images`
+* Install requirements
+    > pip install -r requirements.txt
 
-**mobile-app:**
-<br /> - open in Android Studio and change the API address to your backends address
+* run sort_iamges.py
+    > python sort-images.py
 
-**Demo:**
-<br /> The demo first shows a benign classification for a benign image and then a malignant classification for a malignant image
-> https://leeds365-my.sharepoint.com/:v:/g/personal/ll16d4b_leeds_ac_uk/EahkcM1fUD1HgvmZI6TaUxEB_02Btx-Jqei4hIOJD8KK8g?e=CErduc
+* run model/main.py
+    > python model.py
+
+
+# Mobile Application:
+**How to run:**  
+Open in Android Studio and change the APIs address to your backends IP address
+
+**Demo:**  
+The demo first shows a benign classification for a benign image and then a malignant classification for a malignant image
+
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1629212462/video_to_markdown/images/google-drive--18GQFcmcQG3EopnwBFi5pXFi1ORfzcr6B-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/18GQFcmcQG3EopnwBFi5pXFi1ORfzcr6B/view?usp=sharing "")

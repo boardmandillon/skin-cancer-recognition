@@ -44,7 +44,7 @@ trained_model = model.train(
 )
 
 # save the model
-torch.save(trained_model, 'model_test.pth')
+torch.save(trained_model, 'model.pth')
 
 trained_model = torch.load('model.pth', map_location=DEVICE)
 
